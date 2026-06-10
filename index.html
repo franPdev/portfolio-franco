@@ -14,6 +14,7 @@
 <!-- <meta property="og:image" content="URL-DE-UNA-FOTO-DE-TU-WEB" /> -->
 
     <!-- Links -->
+    <link rel="preload" as="image" href="images/avatar.png">
 
       <!-- Main CSS -->
 
@@ -50,13 +51,13 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
   </head>
-  <body class="is-preload">
+  <body>
 
 
     <!-- Header -->
     <header id="header">
       <div class="content">
-       <h1><a href="#">Hola, soy Franco</a></h1>
+       <h1>Hola, soy Franco</h1>
 <p>
   <strong>Desarrollador de Software & IA</strong><br />
   San Juan, Argentina 📍
@@ -85,7 +86,7 @@
         </ul>
       </div>
       <div class="image avatar-container">
-        <div class="inner avatar-inner"><img src="images/avatar.png" alt="" class="avatar-img" /></div>
+        <div class="inner avatar-inner"><img src="images/avatar.png" alt="Avatar de Franco" class="avatar-img" decoding="async" /></div>
       </div>
     </header>
 
@@ -171,31 +172,49 @@
     <section id="two" class="wrapper style2">
       <div class="inner alt projects-container">
        <section class="spotlight" data-aos="fade-right">
-  <div class="image"><img src="images/fintrack-preview.png" alt="Preview FinTrack" /></div>
+  <div class="image"><img src="images/opticommerce.png" alt="OptiCommerce AI preview" /></div>
+  <div class="content">
+    <h3>OptiCommerce AI</h3>
+    <p>
+      SaaS B2B de Gestión y Optimización Inteligente de Stock para Retail. Analiza datos históricos, previene quiebres de inventario y predice compras optimizando el ROI mediante agentes de IA.
+    </p>
+    <div class="project-tech-stack">
+      <i class="devicon-react-original colored" title="React"></i>
+      <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+      <i class="devicon-vitejs-plain colored" title="Vite"></i>
+      <i class="devicon-tailwindcss-original colored" title="Tailwind CSS"></i>
+      <i class="fas fa-chart-line" style="color: #22d3ee;" title="Recharts"></i>
+    </div>
+    <ul class="actions">
+      <li><a href="https://opticommerce-web.vercel.app/" target="_blank" rel="noopener noreferrer" class="button small">Demo En Vivo</a></li>
+      <li><a href="#" target="_blank" rel="noopener noreferrer" class="button small alt">Código en GitHub</a></li>
+    </ul>
+  </div>
+</section>
+
+       <section class="spotlight" data-aos="fade-left">
+  <div class="image"><img src="images/findtrack.jpeg" alt="FinTrack app preview" /></div>
   <div class="content">
     <h3>FinTrack – App de Finanzas con IA</h3>
     <p>
       Dashboard moderno para gestión de ingresos y egresos. Incluye visualización de datos con <strong>ApexCharts</strong> y un chatbot inteligente integrado con la <strong>API de Gemini</strong> para análisis de gastos.
     </p>
+    <div class="project-tech-stack">
+      <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+      <i class="devicon-bootstrap-plain colored" title="Bootstrap"></i>
+      <i class="fas fa-chart-pie" style="color: #008FFB;" title="ApexCharts"></i>
+      <i class="fas fa-search" style="color: #3b82f6;" title="Fuse.js"></i>
+    </div>
     <ul class="actions">
-      <li><a href="https://fintrack-frontend-zeta.vercel.app/" class="button small">Demo En Vivo</a></li>
-      <li><a href="https://github.com/franPdev/fintrack-frontend" class="button small alt">GitHub</a></li>
+      <li><a href="https://fintrack-frontend-zeta.vercel.app/" target="_blank" rel="noopener noreferrer" class="button small">Demo En Vivo</a></li>
+      <li><a href="https://github.com/franPdev/fintrack-frontend" target="_blank" rel="noopener noreferrer" class="button small alt">Código en GitHub</a></li>
     </ul>
   </div>
 </section>
-     <section class="spotlight" data-aos="fade-left">
-  <div class="image"><img src="images/weather-preview.jpg" alt="Preview WeatherNow" /></div>
-  <div class="content">
-    <h3>WeatherNow – Clima en Tiempo Real</h3>
-    <p>
-      Aplicación desarrollada en <strong>React</strong> que consume la API de OpenWeather. Cuenta con fondos dinámicos que cambian según el clima y una interfaz optimizada para dispositivos móviles.
-    </p>
-    <ul class="actions">
-      <li><a href="#" class="button small">Demo En Vivo</a></li>
-      <li><a href="https://github.com/franPdev/weathernow" class="button small alt">GitHub</a></li>
-    </ul>
-  </div>
-</section>
+
+       
+
+  
 
       </div>
     </section>

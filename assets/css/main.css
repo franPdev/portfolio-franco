@@ -3514,6 +3514,13 @@ body {
 
 #header .image.avatar-container {
   max-width: 280px;
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+#header .avatar-inner {
+  background: transparent !important;
+  background-color: transparent !important;
 }
 
 #header .image img,
@@ -3523,6 +3530,8 @@ body {
   display: block;
   border-radius: 12px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  background: transparent !important;
+  background-color: transparent !important;
 }
 #header .image.phone {
   box-shadow: none;
